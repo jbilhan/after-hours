@@ -1,5 +1,5 @@
 <script type="text/javascript" src="//www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js"></script>
-<script>
+
  rjq('#rjp-radiojar-player').radiojar('player', {
   "streamName": "uf6x8w5f81ac",
   "enableUpdates": true,
@@ -24,4 +24,3 @@
      rjq('#rj-cover').html('')
    }
  }
-</script>
