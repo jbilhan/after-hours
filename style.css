@@ -1,12 +1,10 @@
-/*style sheet*/
-
 .font-emphasis {
   font-family: Verdana, sans-serif;
   font-weight: bold;
   font-style: normal;
 }
 .clearfix {
-  zoom: 1;
+  *zoom: 1;
 }
 .clearfix:before,
 .clearfix:after {
@@ -51,7 +49,7 @@
   position: fixed;
 }
 /*!
- *  Font Awesome 4.7.0
+ *  Font Awesome 3.1.0
  *  the iconic font designed for Bootstrap
  *  -------------------------------------------------------
  *  The full suite of pictographic icons, examples, and documentation
@@ -78,8 +76,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot');
-  src: url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf) format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+  src: url('../font/fontawesome-webfont.eot?v=3.1.0');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.1.0') format('embedded-opentype'), url('../font/fontawesome-webfont.woff?v=3.1.0') format('woff'), url('../font/fontawesome-webfont.ttf?v=3.1.0') format('truetype'), url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.1.0') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -92,7 +90,7 @@
   font-style: normal;
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
-  margin-right: .3em;
+  *margin-right: .3em;
 }
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -270,7 +268,7 @@ ul.icons-ul > li .icon-li {
 }
 .rj-nav-tabs,
 .rj-nav-pills {
-  zoom: 1;
+  *zoom: 1;
 }
 .rj-nav-tabs:before,
 .rj-nav-pills:before,
@@ -335,7 +333,7 @@ ul.icons-ul > li .icon-li {
   z-index: 2;
 }
 .tabbable {
-  zoom: 1;
+  *zoom: 1;
 }
 .tabbable:before,
 .tabbable:after {
@@ -409,7 +407,7 @@ ul.icons-ul > li .icon-li {
 .rj-tabs-left > .rj-nav-tabs .active > a,
 .rj-tabs-left > .rj-nav-tabs .active > a:hover {
   border-color: #ddd transparent #ddd #ddd;
-  border-right-color: #ffffff;
+  *border-right-color: #ffffff;
 }
 .rj-tabs-right > .rj-nav-tabs {
   float: right;
@@ -428,7 +426,7 @@ ul.icons-ul > li .icon-li {
 .rj-tabs-right > .rj-nav-tabs .active > a,
 .rj-tabs-right > .rj-nav-tabs .active > a:hover {
   border-color: #ddd #ddd #ddd transparent;
-  border-left-color: #ffffff;
+  *border-left-color: #ffffff;
 }
 .rj-nav-tabs > .active > a,
 .rj-nav-tabs > .active > a:hover {
