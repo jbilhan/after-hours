@@ -442,6 +442,7 @@
     width: 100vw;
     flex-direction: column;
     pointer-events: auto;
+    z-index: 10;
   }
   #rj-player .rjp-label {
     color: #ffffff;
@@ -641,6 +642,7 @@
     justify-content: ;
     display: flex;
     pointer-events: auto;
+    z-index: 10;
   }
   #rj-player .player-v3 .rjp-player-container .jp-play,
   #rj-player .player-v3 .rjp-player-container .jp-pause {
@@ -654,4 +656,18 @@
   }
   #rj-player .player-v3 .jp-volume-bar-wrapper {
     left: 107px;
+  }
+
+  .text-contain {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: scroll;
+  }
+
+  .project-text {
+    padding: 5em;
+    pointer-events: auto;
+    z-index: 9;
   }
