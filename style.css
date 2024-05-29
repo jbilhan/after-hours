@@ -573,15 +573,17 @@ ul.icons-ul > li .icon-li {
   text-align: center;
 }
 #rj-player .player-v3 #rj-cover a {
-  display: inline;
+  /* display: inline; */
   line-height: 210px;
   text-align: center;
+  display: none;
 }
 #rj-player .player-v3 #rj-cover a img {
-  display: inline;
+  /* display: inline; */
   width: 210px;
   height: 210px;
   vertical-align: middle;
+  display: none;
 }
 #rj-player .player-v3 .info {
   position: relative;
@@ -605,6 +607,7 @@ ul.icons-ul > li .icon-li {
   width: 210px;
   height: 210px;
   float: left;
+  display: none;
 }
 #rj-player .player-v3.player-medium .info {
   position: relative;
