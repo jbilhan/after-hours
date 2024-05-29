@@ -433,8 +433,14 @@ ul.icons-ul > li .icon-li {
   text-decoration: none;
 }
 #rj-player .rjp-trackinfo-container {
-  overflow: hidden;
-  padding: 10px;
+  /* overflow: hidden;
+  padding: 10px; */
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    width: 100vw;
 }
 #rj-player .rjp-label {
   color: #ffffff;
@@ -459,17 +465,17 @@ ul.icons-ul > li .icon-li {
   background: #6b5d56;
   color: #ffffff;
   display: block;
-  width: 60px;
-  height: 60px;
-  font-size: 30px;
+  width: 2em;
+  height: 2em;
+  font-size: 2em;
   text-align: center;
-  line-height: 2.2;
+  line-height: 2.1;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  position: absolute;
+  /* position: absolute;
   left: 10px;
-  top: 10px;
+  top: 10px; */
 }
 #rj-player .rjp-player-container .jp-play:active,
 #rj-player .rjp-player-container .jp-pause:active,
@@ -589,18 +595,22 @@ ul.icons-ul > li .icon-li {
   height: 210px;
 }
 #rj-player .player-v3 .rjp-player-container {
-  bottom: 0;
+  /* bottom: 0;
   left: 210px;
-  position: absolute;
+  position: absolute;*/
   height: 80px;
-  width: 710px;
+  width: 710px; 
+  
 }
 #rj-player .player-v3.player-medium {
-  width: 650px;
-  height: 210px;
+  /* width: 650px;
+  height: 210px; */
+  width: 100vw;
+  height: 100vh;
 }
 #rj-player .player-v3.player-medium .rjp-player-container {
-  left: 0;
+  /* left: 0; */
+  
 }
 #rj-player .player-v3.player-medium #rj-cover {
   width: 210px;
@@ -609,20 +619,29 @@ ul.icons-ul > li .icon-li {
   display: none;
 }
 #rj-player .player-v3.player-medium .info {
-  position: relative;
+  /* position: relative;
   float: left;
   width: 440px;
-  height: 210px;
+  height: 210px; */
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 #rj-player .player-v3.player-medium .rjp-player-container {
-  width: 440px;
+  /* width: 440px;
   height: 80px;
-  position: absolute;
+  position: absolute; */
+  width: 4em;
+    display: flex;
+    justify-content: ;
 }
 #rj-player .player-v3 .rjp-player-container .jp-play,
 #rj-player .player-v3 .rjp-player-container .jp-pause {
-  margin-left: 20px;
-  left: auto;
+  /* margin-left: 20px;
+  left: auto; */
 }
 #rj-player .player-v3 .rjp-player-container .jp-mute,
 #rj-player .player-v3 .rjp-player-container .jp-unmute {
