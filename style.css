@@ -463,7 +463,7 @@
   }
   #rj-player .rjp-player-container .jp-play,
   #rj-player .rjp-player-container .jp-pause {
-    background: #232120;
+    background: #111010;
     color: #ffffff;
     display: block;
     width: 2em;
@@ -568,7 +568,7 @@
     height: 210px;
   }
   #rj-player .player-v3 .rjp-label {
-    color: #5d302393;
+    color: #111010;
   }
   #rj-player .player-v3 #rj-cover {
     float: left;
