@@ -13,6 +13,9 @@
 <body>
   <div id="rj-player">
  <div class="player-v3 player-medium">
+  <div id="rj-cover" visibility="hidden">
+    <a href="#"><img src=""/></a>
+  </div>
   <div class="info">
    <div class="rjp-trackinfo-container">
     <h4 class="rjp-label">Now playing:</h4>
@@ -63,6 +66,13 @@
    }
  });
 
+ function updateInfo(data) {
+   if (data.thumb) {
+     rjq('#rj-cover').html('<a href="#"><img src="' + data.thumb + '" alt="" title="" /></a>')
+   } else {
+     rjq('#rj-cover').html('')
+   }
+ }
 </script>
 </body>
 </html>
