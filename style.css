@@ -571,19 +571,18 @@ ul.icons-ul > li .icon-li {
   background: #eae4e0;
   background-clip: content-box;
   text-align: center;
+  display: none;
 }
 #rj-player .player-v3 #rj-cover a {
   /* display: inline; */
   line-height: 210px;
   text-align: center;
-  display: none;
 }
 #rj-player .player-v3 #rj-cover a img {
   /* display: inline; */
   width: 210px;
   height: 210px;
   vertical-align: middle;
-  display: none;
 }
 #rj-player .player-v3 .info {
   position: relative;
