@@ -685,20 +685,20 @@
     mask: linear-gradient(to bottom,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
-.text-blur ._2 {
+.text-blur._2 {
     height: 5em;
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
     mask: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
-.text-blur ._3 {
+.text-blur._3 {
     height: 4em;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
 
-.text-blur ._4 {
+.text-blur._4 {
     height: 3em;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
