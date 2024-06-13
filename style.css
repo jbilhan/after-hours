@@ -721,7 +721,6 @@ ul.icons-ul > li .icon-li {
 
 #rj-player .player-v3.player-medium .rjp-player-container {
   /* left: 0; */
-  
 }
 
 #rj-player .player-v3.player-medium #rj-cover {
@@ -790,7 +789,7 @@ ul.icons-ul > li .icon-li {
 
 @media (max-width:767px) {
   .project-text {
-    padding: 1em;
+    padding: 2em;
     padding-top: 5.5em;
   }
 }
