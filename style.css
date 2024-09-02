@@ -852,7 +852,14 @@ ul.icons-ul > li .icon-li {
 }
 
 .bg-img {
-  width: 80vw;
+  position: absolute;
+  width: 108%;
   max-height: 90vh;
   object-fit: contain;
+}
+
+@media (max-width:767px) {
+  .bg-img {
+    width: 250%;
+  }
 }
